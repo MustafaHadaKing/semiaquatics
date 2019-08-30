@@ -15,3 +15,7 @@ div {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+@media (orientation: portrait) {
+    #mc_embed_signup .button {  height: 60px; font-size: 26px;}
+    #mc_embed_signup input.email {height: 60px; font-size: 30px;}
